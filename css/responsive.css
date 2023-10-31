@@ -1,0 +1,433 @@
+/* ==========================from 320px to 575px start============================== */
+@media (min-width:320px) and (max-width:575px){
+    .banner_left {
+        margin-top: 50px;
+    }
+
+    .banner_left h3 {
+        width: auto;
+        font-size: 27.67px;
+    }
+
+    .banner_left p {
+        width: auto;
+        font-size: 18px;
+    }
+
+    .banner_img {
+        width: 100%;
+        margin-top: 35px;
+        margin-bottom: 50px;
+    }
+
+    .title h5 {
+        margin-top: 60px;
+    }
+
+    .title h3 {
+        font-size: 40px;
+    }
+
+    .skill_card {
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+
+    .skill_item {
+        margin-bottom: 50px;
+    }
+
+    .about_right h3 {
+        font-size: 40px;
+    }
+
+    .para1 {
+        width: auto;
+        font-size: 16px;
+    }
+
+    .para2 {
+        width: auto;
+        font-size: 16px;
+    }
+
+    .portfolio_heading{
+        display:inline-block;
+    }
+
+    .portfolio_button{
+        margin-top: 50px;
+    }
+
+    .portfolio_item{
+        margin-bottom: 50px;
+    }
+
+    .portfolio_item img{
+        width:100%;
+    }
+
+    .portfolio_item p {
+        width: auto;
+    }
+
+    #customer {
+        margin-top: 70px;
+    }
+
+    .customer_title h5 {
+        padding-top: 60px;
+    }
+
+    .customer_title h3 {
+        padding-bottom: 50px;
+        font-size: 28px;
+    }
+
+    .customer_item {
+        margin-bottom: 50px;
+    }
+
+    .customer_item p {
+        width: auto;
+        font-size: 16px;
+    }
+
+    .container_title {
+        margin-top: 80px;
+    }
+
+    .container_title h3 {
+        font-size: 40px;
+    }
+
+    form {
+        margin-left: 40px;
+    }
+
+    .box {
+        display: inline-block;
+    }
+
+    input {
+        width: auto;
+    }
+
+    select {
+        width: auto;
+    }
+
+    .message {
+        width: 100%;
+    }
+
+    footer {
+        margin-top: 80px;
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
+    .footer_last {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .footer_lastRight h4 {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+}
+/* ==========================from 320px to 575px end============================== */
+
+
+
+/* ==========================from 576px to 767px start============================== */
+@media (min-width:576px) and (max-width:767px){
+    .banner_left {
+        margin-top: 50px;
+    }
+
+    .banner_left h3 {
+        width: auto;
+        font-size: 27.67px;
+    }
+
+    .banner_left p {
+        width: auto;
+        font-size: 18px;
+    }
+
+    .banner_img {
+        width: 100%;
+        margin-top: 35px;
+        margin-bottom: 50px;
+    }
+
+    .title h5 {
+        margin-top: 60px;
+    }
+
+    .title h3 {
+        font-size: 40px;
+    }
+
+    .skill_card {
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+
+    .skill_item {
+        margin-bottom: 50px;
+    }
+
+    .about_right h3 {
+        font-size: 40px;
+    }
+
+    .para1 {
+        width: auto;
+        font-size: 16px;
+    }
+
+    .para2 {
+        width: auto;
+        font-size: 16px;
+    }
+
+    .portfolio_heading{
+        display:inline-block;
+    }
+
+    .portfolio_button{
+        margin-top: 50px;
+    }
+
+    .portfolio_item{
+        margin-bottom: 50px;
+    }
+
+    .portfolio_item img{
+        width:100%;
+    }
+
+    .portfolio_item p {
+        width: auto;
+    }
+
+    #customer {
+        margin-top: 70px;
+    }
+
+    .customer_title h5 {
+        padding-top: 60px;
+    }
+
+    .customer_title h3 {
+        padding-bottom: 50px;
+        font-size: 28px;
+    }
+
+    .customer_item {
+        margin-bottom: 50px;
+    }
+
+    .customer_item p {
+        width: auto;
+        font-size: 16px;
+    }
+
+    .container_title {
+        margin-top: 80px;
+    }
+
+    .container_title h3 {
+        font-size: 40px;
+    }
+
+    form {
+        margin-left: 40px;
+    }
+
+    .box {
+        display: flex;
+        gap: 32px;
+    }
+
+    input {
+        width: auto;
+    }
+
+    select {
+        width: auto;
+    }
+
+    .message {
+        width: 100%;
+    }
+
+    footer {
+        margin-top: 80px;
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
+    .footer_last {
+        display: inline-block;
+        text-align: center;
+        margin-left: 30px;
+    }
+
+    .footer_lastRight{
+        margin-left: 30px;
+    }
+
+    .footer_lastRight h4 {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+}
+/* ==========================from 576px to 767px end============================== */
+
+
+
+/* ==========================from 768px to 991px start============================== */
+@media (min-width:768px) and (max-width:991px){
+    .banner_left {
+        margin-top: 50px;
+    }
+
+    .banner_left h3 {
+        width: auto;
+        font-size: 27.67px;
+    }
+
+    .banner_left p {
+        width: auto;
+        font-size: 18px;
+    }
+
+    .banner_img {
+        width: 100%;
+        margin-top: 35px;
+        margin-bottom: 50px;
+    }
+
+    .title h5 {
+        margin-top: 60px;
+    }
+
+    .title h3 {
+        font-size: 40px;
+    }
+
+    .skill_card {
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+
+    .skill_item {
+        margin-bottom: 50px;
+    }
+
+    .about_right h3 {
+        font-size: 40px;
+    }
+
+    .para1 {
+        width: auto;
+        font-size: 16px;
+    }
+
+    .para2 {
+        width: auto;
+        font-size: 16px;
+    }
+
+    .portfolio_heading{
+        display:inline-block;
+    }
+
+    .portfolio_button{
+        margin-top: 50px;
+    }
+
+    .portfolio_item{
+        margin-bottom: 50px;
+    }
+
+    .portfolio_item img{
+        width:100%;
+    }
+
+    .portfolio_item p {
+        width: auto;
+    }
+
+    #customer {
+        margin-top: 70px;
+    }
+
+    .customer_title h5 {
+        padding-top: 60px;
+    }
+
+    .customer_title h3 {
+        padding-bottom: 50px;
+        font-size: 28px;
+    }
+
+    .customer_item {
+        margin-bottom: 50px;
+    }
+
+    .customer_item p {
+        width: auto;
+        font-size: 16px;
+    }
+
+    .container_title {
+        margin-top: 80px;
+    }
+
+    .container_title h3 {
+        font-size: 40px;
+    }
+
+    form {
+        margin-left: 40px;
+    }
+
+    .box {
+        display: flex;
+        gap: 32px;
+    }
+
+    input {
+        width: 330px;
+    }
+
+    select {
+        width: 500px;
+    }
+
+    .message {
+        width: 100%;
+    }
+
+    footer {
+        margin-top: 80px;
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
+    .footer_last {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer_lastRight h4 {
+        font-size: 16px;
+    }
+}
+/* ==========================from 768px to 991px end============================== */

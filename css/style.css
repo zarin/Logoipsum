@@ -1,0 +1,563 @@
+/* ============================common css start=============================== */
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width:1300px;
+    margin:0 auto;
+}
+
+.title h5{
+    margin-top: 149px;
+    margin-bottom: 21.33px;
+    font-weight: 600;
+    font-size: 21.33px;
+    line-height: 150%;
+    color:#282938;
+}
+
+.title h3{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    color:#282938;
+}
+/* ============================common css end=============================== */
+
+
+/* ============================navbar start=============================== */
+nav ul li{
+    margin-right: 42px;
+}
+
+.nav-link{
+    font-weight: 400;
+    font-size: 21.33px;
+    line-height: 150%;
+    color:#1C1E53;
+    transition:.4s;
+}
+
+.nav-link:hover{
+    color:#5E3BEE;
+}
+
+.nav_btn{
+    display:inline-block;
+    text-decoration: none;
+    padding: 18px 30px;
+    border:1px solid #5E3BEE;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 21.33px;
+    line-height: 150%;
+    color:#5E3BEE;
+    transition:.4s;
+}
+
+.nav_btn:hover{
+    background: #5E3BEE;
+    color:#FFFFFF;
+}
+/* ============================navbar end=============================== */
+
+
+/* ============================banner start=============================== */
+#banner{
+    margin-top: 25px;
+    background: #F5FCFF;
+}
+
+.banner_left{
+    margin-top: 235px;
+}
+
+.banner_left h5{
+    font-weight: 600;
+    font-size: 21.33px;
+    line-height: 150%;
+    color:#282938;
+}
+
+.banner_left h3{
+    width:790px;
+    font-weight: 700;
+    font-size: 74.67px;
+    line-height: 120%;
+    color:#282938;
+    margin-top: 21.33px;
+    margin-bottom: 21.33px;
+}
+
+.banner_left h3 span{
+    color:#5E3BEE;
+}
+
+.banner_left p{
+    width:621.33px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color:#1C1E53; 
+    margin-bottom: 32px;
+}
+
+.banner_btn{
+    display:inline-block;
+    text-decoration: none;
+    padding: 18px 25px;
+    border:1px solid #5E3BEE;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 21.33px;
+    line-height: 150%;
+    color:#5E3BEE;
+    transition:.4s;
+}
+
+.banner_btn:hover{
+    background: #5E3BEE;
+    color:#FFFFFF;
+}
+
+.banner_img{
+    width:100%;
+    margin-top: 240px;
+    margin-bottom: 200px;
+}
+/* ============================banner end=============================== */
+
+
+/* ============================skill start=============================== */
+.skill_card{
+    margin-top: 106px;
+    margin-bottom: 150px;
+}
+
+.skill_item{
+    padding: 25px;
+    border:2px solid transparent;
+    border-radius: 10px;
+    background: #F5FCFF;
+    transition:.4s;
+}
+
+.skill_item:hover{
+    border-bottom: 2px solid #5E3BEE;
+}
+
+.skill_item h4{
+    margin-top: 32px;
+    margin-bottom: 21.33px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 140%;
+    color:#282938;
+}
+
+.skill_item p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color:#1C1E53;
+}
+/* ============================skill end=============================== */
+
+
+/* ============================about start=============================== */
+.about_img{
+    width:100%;
+}
+
+.about_right{
+    padding-left: 50px;
+}
+
+.about_right h5{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 21.33px;
+    line-height: 150%;
+    color:#282938;
+}
+
+.about_right h3{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    color:#282938;
+}
+
+.para1{
+    width:821px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color:#1C1E53;
+}
+
+.para2{
+    width:821px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color:#1C1E53;
+}
+/* ============================about end=============================== */
+
+
+/* ============================portfolio start=============================== */
+.portfolio_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio_button{
+    margin-top: 149px;
+    padding: 22px;
+    border-radius: 10px;
+    background: #E62872;
+}
+
+.portfolio_btn{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 21.33px;
+    line-height: 150%;
+    color:#FFFFFF;
+    margin-left: 10px;
+}
+
+.icon_globe{
+    font-size: 21.33px;
+    line-height: 150%;
+    color:#FFFFFF;
+}
+
+.portfolio_card{
+    margin-top: 100px;
+}
+
+.card_img{
+    width:100%;
+}
+
+.card_body{
+    padding-left: 15px;
+    box-shadow: 4px 2px 12px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 4px 2px 12px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 2px 12px 0px rgba(0, 0, 0, 0.5);
+    padding-bottom: 32px;
+}
+
+.portfolio_item h5{
+    padding-top: 32px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+    color:#282938;
+    
+}
+
+.portfolio_item p{
+    width:380px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color:#1C1E53;
+}
+
+.card_button{
+    border-bottom:2px solid #5E3BEE;
+    width:180px;
+}
+
+.card_btn{
+    display:inline-block;
+    text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 11px;
+    font-weight: 600;
+    font-size: 18.67px;
+    line-height: 150%;
+    color:#000000;
+}
+
+.icon_arrow{
+    margin-left: 16px;
+    color:#000000;
+}
+
+.portfolio_item:hover .icon_arrow{
+    color:#006B6A;
+}
+/* ============================portfolio end=============================== */
+
+
+/* ============================customer start=============================== */
+#customer{
+    background: #F5FCFF;
+    margin-top:149px;
+}
+
+.customer_title h5{
+    padding-top: 149px;
+    padding-bottom: 21.33px;
+    font-weight: 600;
+    font-size: 21.33px;
+    line-height: 150%;
+    color:#282938;
+}
+
+.customer_title h3{
+    padding-bottom: 100px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    color:#282938;
+}
+
+.customer_item{
+    padding: 42px;
+    border:1px solid #006B6A;
+    border-radius: 8px;
+    margin-bottom: 149px;
+}
+
+.customer_last{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+
+.customer_img{
+    width:20%;
+}
+
+.customer_item i{
+    color:#006B6A;
+}
+
+.customer_item p{
+    width:350px;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color:#1C1E53;
+}
+
+.customer_last h4{
+    font-weight: 600;
+    font-size: 21.33px;
+    line-height: 150%;
+    color:#282938;
+}
+
+.customer_last h5{
+    font-weight: 400;
+    font-size: 21.33px;
+    line-height: 150%;
+    color:#1C1E53;
+}
+/* ============================customer end=============================== */
+
+
+/* ============================container start=============================== */
+.container_title{
+    text-align: center;
+    margin-top: 149px;
+}
+
+.container_title h5{
+    font-weight: 600;
+    font-size: 21.33px;
+    line-height: 150%;
+    color:#282938;
+}
+
+.container_title h3{
+    margin-top: 21.33px;
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    color:#282938;
+}
+
+.container_title p{
+    margin-bottom: 64px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color:#1C1E53;
+}
+
+form{
+    margin-left: 200px;
+}
+
+form h4{
+    margin-bottom: 11px;
+    font-weight: 400;
+    font-size: 21.33px;
+    line-height: 150%;
+    color:#282938;
+}
+
+.box{
+    display:flex;
+    align-items: center;
+    gap:32px;
+}
+
+input{
+    width:496px;
+    height:64px;
+    padding: 16px;
+    border-radius: 8px;
+    border:1px solid #5E3BEE;
+    outline:none;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color:#282938;
+}
+
+select{
+    width:1024px;
+    height:64px;
+    border-radius: 8px;
+    border:1px solid #5E3BEE;
+    outline:none;
+    padding:16px;
+    margin-bottom: 32px;
+}
+
+option{
+    font-weight: 400;
+    font-size: 21.33px;
+    line-height: 150%;
+    color:#282938;
+}
+
+.message{
+    width:1024px;
+    border-radius: 8px;
+    border:1px solid #5E3BEE; 
+    outline:none;
+    padding-top:20px;
+    padding-bottom: 192px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-weight: 400;
+    font-size: 21.33px;
+    line-height: 150%;
+    color:#505050;
+}
+
+.input_check{
+    width:22px;
+    height:22px;
+}
+
+.box_check{
+    display:flex;
+    gap:10px;
+}
+
+.box_check h6{
+    font-weight: 400;
+    font-size: 18.67px;
+    line-height: 150%;
+    color:#282938;
+}
+
+.contact_button{
+    margin-top: 32px;
+    text-align: center;
+}
+
+.contact_btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 18px 50px;
+    background: #5E3BEE;
+    border:1px solid #5E3BEE;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 21.33px;
+    line-height: 150%;
+    color:#FFFFFF;
+    transition:.4s;
+}
+
+.contact_btn:hover{
+    background:transparent;
+    border:1px solid #5E3BEE;
+    color:#282938;
+}
+/* ============================container end=============================== */
+
+
+/* ============================footer start=============================== */
+footer{
+    background: #F5FCFF;
+    margin-top: 149px;
+    padding-top: 107px;
+    padding-bottom: 106px;
+}
+
+.footer_logo_img{
+    width:80%;
+}
+
+.footer_icon{
+    margin-right: 20px;
+}
+
+.footer_last{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 44px;
+}
+
+.footer_lastLeft h6{
+    font-weight: 400;
+    font-size: 18.67px;
+    line-height: 150%;
+    color:#000000;
+}
+
+.footer_lastRight{
+    display:flex;
+    gap:32px;
+}
+
+.footer_lastRight h4{
+    font-weight: 400;
+    font-size: 18.67px;
+    line-height: 150%;
+    color:#000000;
+}
+
+.heart_icon{
+    color:#E62872;
+}
+
+/* ============================footer end=============================== */
